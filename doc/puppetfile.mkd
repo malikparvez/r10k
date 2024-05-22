@@ -36,7 +36,11 @@ into ./modules)
 Verify the Puppetfile syntax
 
     r10k puppetfile check
+    
+Resolve the Puppetfile module dependencies
 
+    r10k puppetfile resolve
+    
 Remove any modules in the 'modules' directory that are not specified in the
 Puppetfile:
 
